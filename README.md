@@ -1,1 +1,1 @@
-# nerds
+# Проект Nerds
