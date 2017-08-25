@@ -8,7 +8,7 @@
 	<header class="main-header">
 		<div class="container">
 			<nav class="main-navigation">
-				<img class="main-logo" src="#" alt="Nerds">
+				<a href="index.html"><img class="main-logo" src="#" alt="Nerds"></a>
 				<ul>
 					<li>
 						<a href="#">Студия</a>
@@ -16,7 +16,7 @@
 					<li>
 						<a href="#">Клиенты</a>
 					</li>
-					<li>
+					<li class="active">
 						<a href="#">Магазин</a>
 					</li>
 					<li>
@@ -39,6 +39,23 @@
 			<form action="#">
 				<b>Стоимость:</b><br>
 
+				<div class="set-price">
+					<div class="set-block">
+						<div class="set-line"></div>
+						<div class="set-circle"></div>
+						<div class="set-line-check"></div>
+						<div class="set-circle"></div>
+					</div>
+					<div class="set-block-one">
+						<p>От</p>
+						<div class="set-value">0</div>
+					</div>
+					<div class="set-block-two">
+						<p>До</p>
+						<div class="set-value">15 000</div>
+					</div>
+				</div>
+
 				<b>Сетка:</b><br>
 
 				<input type="radio" name="grid" value="r-1" id="r-adapt" checked>
@@ -59,13 +76,83 @@
 				<input type="checkbox" name="option-4" id="c-gallery">
 				<label for="c-gallery">Галерея</label><br>
 				<input type="checkbox" name="option-5" id="c-basket">
-				<label for="c-basket">Галерея</label><br>
+				<label for="c-basket">Корзина</label><br>
 
 				<input type="submit" name="show" value="Показать">
 			</form>
 		</div>
 		<div class="catalog-right">
-			
+			<div class="catalog-settings">
+				<b>Сортировать:</b>
+				<p>По цене</p>
+				<p>По типу</p>
+				<p>По названию</p>
+				<div class="catalog-arrows">
+					<div class="arrow-up"></div>
+					<div class="arrow-down"></div>
+				</div>
+			</div>
+
+			<div class="catalog-templates">
+
+				<article class="template block-1">
+					<img src="#" alt="">
+					<div class="template-info">
+						<p>Sedona</p>
+						<p>Информационный сайт для туристов</p>
+						<a href="#" class="btn">9 900 руб.</a>
+					</div>
+				</article>
+				<article class="template block-2">
+					<img src="#" alt="">
+					<div class="template-info">
+						<p>Pink</p>
+						<p>Информационный сайт для туристов</p>
+						<a href="#" class="btn">9 900 руб.</a>
+					</div>
+				</article>
+				<article class="template block-3">
+					<img src="#" alt="">
+					<div class="template-info">
+						<p>Barbershop</p>
+						<p>Информационный сайт для туристов</p>
+						<a href="#" class="btn">9 900 руб.</a>
+					</div>
+				</article>
+				<article class="template block-4">
+					<img src="#" alt="">
+					<div class="template-info">
+						<p>Mishka</p>
+						<p>Информационный сайт для туристов</p>
+						<a href="#" class="btn">9 900 руб.</a>
+					</div>
+				</article>
+				<article class="template block-5">
+					<img src="#" alt="">
+					<div class="template-info">
+						<p>A+</p>
+						<p>Информационный сайт для туристов</p>
+						<a href="#" class="btn">9 900 руб.</a>
+					</div>
+				</article>
+				<article class="template block-6">
+					<img src="#" alt="">
+					<div class="template-info">
+						<p>Кваст</p>
+						<p>Информационный сайт для туристов</p>
+						<a href="#" class="btn">9 900 руб.</a>
+					</div>
+				</article>
+
+			</div>
+
+			<div class="template-navigation">
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">Следующая</a>
+			</div>
+
 		</div>
 
 		<div class="map-wrap">
